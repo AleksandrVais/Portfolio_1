@@ -163,7 +163,9 @@ body {
 .main_info {
     width: 100%;
     height: 1000px;
-    background-image: url(../images/banner_background.jpg);
+    background: url(../images/banner_background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
     overflow: hidden;
 }
 .main_info_text {
